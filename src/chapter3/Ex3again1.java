@@ -1,8 +1,17 @@
+package chapter3;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Ex3again1 {
+
+    int inputMoney;
+
+    Ex3again1 (int inputMoney) {
+        this.inputMoney = inputMoney;
+        this.solution(inputMoney);
+    }
 
     public void solution(int change) {
 

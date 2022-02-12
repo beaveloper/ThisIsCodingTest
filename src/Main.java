@@ -1,15 +1,18 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws Exception {
 
-//        Ex3again1 ex3again1 = new Ex3again1();
+//        chapter3.Ex3again1 ex3again1 = new chapter3.Ex3again1();
 //        ex3again1.solution(5430);
 
 
         int[] nums = {7,3,1,2,5,6,8,4,9};
-        SortEx.bubbleSort(nums);
+
         for (int num : nums) {
             System.out.println(num);
         }
